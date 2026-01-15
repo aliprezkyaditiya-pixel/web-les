@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pendaftaran Berhasil — Les Private Ceria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="success-page">
+  <main class="success-wrap">
+    <div class="success-card">
+      <img src="assets/mascot.png" alt="" aria-hidden="true" class="success-mascot" />
+      <h1>Yeay! Pendaftaran terkirim 🎉</h1>
+      <p class="muted">
+        Terima kasih! Kami akan menghubungi orang tua/wali untuk konfirmasi jadwal dan info selanjutnya.
+      </p>
+
+      <div class="success-box" id="lastDataBox" hidden>
+        <h2>Ringkasan</h2>
+        <div class="success-grid" id="lastData"></div>
+      </div>
+
+      <div class="success-actions">
+        <a class="btn btn-primary" href="index.html#daftar">Daftar Lagi</a>
+        <a class="btn btn-ghost" href="index.html">Kembali ke Beranda</a>
+      </div>
+
+      <p class="tiny">
+        Catatan: versi demo menyimpan data di browser (localStorage). Untuk versi produksi, sambungkan ke Google Sheets / database.
+      </p>
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

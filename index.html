@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Les Private Ceria — Daftar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font yang ramah anak -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#konten">Lewati ke konten</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand" aria-label="Les Private Ceria">
+        <div class="logo" aria-hidden="true">LP</div>
+        <div class="brand-text">
+          <div class="brand-title">Les Private Ceria</div>
+          <div class="brand-subtitle">Matematika • Bahasa Indonesia • Bahasa Inggris</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="sr-only">Buka menu</span>
+        </button>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#program">Program</a></li>
+          <li><a href="#jadwal">Jadwal</a></li>
+          <li><a href="#daftar">Daftar</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="konten">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="badge">Belajar jadi seru ✨</p>
+          <h1>
+            Daftar Les Privat untuk Anak-anak
+            <span class="h1-accent">lebih percaya diri</span>
+          </h1>
+          <p class="lead">
+            Pilih pelajaran favoritmu, tentukan jadwal, lalu isi formulir. Kami akan hubungi orang tua/wali untuk konfirmasi.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#daftar">Daftar Sekarang</a>
+            <a class="btn btn-ghost" href="#program">Lihat Program</a>
+          </div>
+
+          <ul class="hero-points" aria-label="Keunggulan">
+            <li>👩‍🏫 Tutor ramah anak</li>
+            <li>📚 Materi sesuai kelas</li>
+            <li>🎯 Fokus target & latihan</li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="card-art">
+            <img src="assets/mascot.png" alt="" />
+            <div class="art-bubbles">
+              <div class="bubble bubble-yellow">Ayo belajar!</div>
+              <div class="bubble bubble-blue">Kamu pasti bisa!</div>
+              <div class="bubble bubble-pink">Seru banget!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img class="hero-stars" src="assets/stars.png" alt="" aria-hidden="true" />
+    </section>
+
+    <!-- PROGRAM -->
+    <section id="program" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Program Pelajaran</h2>
+          <p>Pilih satu atau lebih pelajaran. Kamu juga bisa pilih mode online atau datang ke rumah.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="subject-card subject-math">
+            <div class="subject-icon" aria-hidden="true">➕</div>
+            <h3>Matematika</h3>
+            <p>Konsep + latihan bertahap supaya tidak takut angka.</p>
+            <ul class="mini-list">
+              <li>Penjumlahan–Pecahan</li>
+              <li>Soal cerita</li>
+              <li>Persiapan ujian</li>
+            </ul>
+          </article>
+
+          <article class="subject-card subject-indo">
+            <div class="subject-icon" aria-hidden="true">📖</div>
+            <h3>Bahasa Indonesia</h3>
+            <p>Meningkatkan membaca, menulis, dan memahami teks.</p>
+            <ul class="mini-list">
+              <li>Ringkas cerita</li>
+              <li>Menulis rapi</li>
+              <li>Tata bahasa</li>
+            </ul>
+          </article>
+
+          <article class="subject-card subject-eng">
+            <div class="subject-icon" aria-hidden="true">🗣️</div>
+            <h3>Bahasa Inggris</h3>
+            <p>Belajar kosakata, speaking ringan, dan latihan soal.</p>
+            <ul class="mini-list">
+              <li>Vocabulary</li>
+              <li>Simple grammar</li>
+              <li>Conversation</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="note-strip" role="note">
+          <div class="note-dot" aria-hidden="true"></div>
+          <div>
+            <strong>Bonus:</strong> Setiap pertemuan dapat “Lembar Latihan Ceria” (PDF) sesuai kelas.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JADWAL -->
+    <section id="jadwal" class="section section-soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contoh Jadwal Fleksibel</h2>
+          <p>Kamu bisa pilih hari dan jam. Ini contoh slot yang sering dipakai.</p>
+        </div>
+
+        <div class="schedule">
+          <div class="schedule-col">
+            <h3>Senin–Jumat</h3>
+            <div class="chips">
+              <button class="chip" type="button" data-slot="16:00">16:00</button>
+              <button class="chip" type="button" data-slot="17:30">17:30</button>
+              <button class="chip" type="button" data-slot="19:00">19:00</button>
+            </div>
+          </div>
+          <div class="schedule-col">
+            <h3>Sabtu</h3>
+            <div class="chips">
+              <button class="chip" type="button" data-slot="09:00">09:00</button>
+              <button class="chip" type="button" data-slot="10:30">10:30</button>
+              <button class="chip" type="button" data-slot="13:30">13:30</button>
+            </div>
+          </div>
+          <div class="schedule-col">
+            <h3>Minggu</h3>
+            <div class="chips">
+              <button class="chip" type="button" data-slot="Libur / by request">Libur / by request</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hint">
+          <span class="hint-emoji" aria-hidden="true">👉</span>
+          <p>Klik slot jam untuk mengisi otomatis di formulir pendaftaran.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM DAFTAR -->
+    <section id="daftar" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Form Pendaftaran</h2>
+          <p>Isi data anak & orang tua/wali. Setelah submit, data akan disimpan di browser (demo) dan muncul halaman sukses.</p>
+        </div>
+
+        <div class="form-layout">
+          <form class="form" id="regForm" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="namaAnak">Nama Anak</label>
+                <input id="namaAnak" name="namaAnak" type="text" placeholder="Contoh: Naya" required />
+                <small class="error" data-error-for="namaAnak"></small>
+              </div>
+
+              <div class="field">
+                <label for="kelas">Kelas</label>
+                <select id="kelas" name="kelas" required>
+                  <option value="">Pilih kelas…</option>
+                  <option>TK</option>
+                  <option>SD 1</option><option>SD 2</option><option>SD 3</option>
+                  <option>SD 4</option><option>SD 5</option><option>SD 6</option>
+                  <option>SMP 7</option><option>SMP 8</option><option>SMP 9</option>
+                </select>
+                <small class="error" data-error-for="kelas"></small>
+              </div>
+
+              <div class="field field-full">
+                <fieldset class="fieldset">
+                  <legend>Pelajaran yang Dipilih</legend>
+                  <div class="checks">
+                    <label class="check">
+                      <input type="checkbox" name="mapel" value="Matematika" />
+                      <span>Matematika</span>
+                    </label>
+                    <label class="check">
+                      <input type="checkbox" name="mapel" value="Bahasa Indonesia" />
+                      <span>Bahasa Indonesia</span>
+                    </label>
+                    <label class="check">
+                      <input type="checkbox" name="mapel" value="Bahasa Inggris" />
+                      <span>Bahasa Inggris</span>
+                    </label>
+                  </div>
+                  <small class="error" data-error-for="mapel"></small>
+                </fieldset>
+              </div>
+
+              <div class="field">
+                <label for="mode">Mode Belajar</label>
+                <select id="mode" name="mode" required>
+                  <option value="">Pilih mode…</option>
+                  <option value="Datang ke rumah">Datang ke rumah</option>
+                  <option value="Online (Zoom/Meet)">Online (Zoom/Meet)</option>
+                </select>
+                <small class="error" data-error-for="mode"></small>
+              </div>
+
+              <div class="field">
+                <label for="jadwalPreferensi">Jadwal Preferensi</label>
+                <input id="jadwalPreferensi" name="jadwalPreferensi" type="text" placeholder="Contoh: Senin 16:00" required />
+                <small class="error" data-error-for="jadwalPreferensi"></small>
+              </div>
+
+              <div class="field">
+                <label for="namaWali">Nama Orang Tua/Wali</label>
+                <input id="namaWali" name="namaWali" type="text" placeholder="Contoh: Ibu Sari" required />
+                <small class="error" data-error-for="namaWali"></small>
+              </div>
+
+              <div class="field">
+                <label for="wa">No. WhatsApp</label>
+                <input id="wa" name="wa" type="tel" inputmode="numeric" placeholder="Contoh: 081234567890" required />
+                <small class="error" data-error-for="wa"></small>
+              </div>
+
+              <div class="field field-full">
+                <label for="alamat">Alamat (Jika datang ke rumah)</label>
+                <textarea id="alamat" name="alamat" rows="3" placeholder="Isi alamat lengkap. Jika online, boleh tulis: -"></textarea>
+                <small class="help">Tips: Tulis patokan (contoh: dekat masjid/warung).</small>
+              </div>
+
+              <div class="field field-full">
+                <label for="catatan">Catatan Tambahan</label>
+                <textarea id="catatan" name="catatan" rows="3" placeholder="Contoh: anak sulit fokus, butuh banyak latihan, dll."></textarea>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Kirim Pendaftaran</button>
+              <button class="btn btn-ghost" type="button" id="btnReset">Reset</button>
+            </div>
+
+            <p class="form-footnote">
+              Dengan mengirim formulir ini, kamu setuju dihubungi untuk konfirmasi jadwal & biaya.
+            </p>
+          </form>
+
+          <aside class="side-card" aria-label="Ringkasan">
+            <div class="side-card-head">
+              <h3>Ringkasan Pilihan</h3>
+              <p class="muted">Akan terisi otomatis saat kamu mengisi form.</p>
+            </div>
+
+            <div class="summary" id="summary">
+              <div class="summary-row">
+                <div class="k">Nama Anak</div>
+                <div class="v" data-sum="namaAnak">-</div>
+              </div>
+              <div class="summary-row">
+                <div class="k">Kelas</div>
+                <div class="v" data-sum="kelas">-</div>
+              </div>
+              <div class="summary-row">
+                <div class="k">Mapel</div>
+                <div class="v" data-sum="mapel">-</div>
+              </div>
+              <div class="summary-row">
+                <div class="k">Mode</div>
+                <div class="v" data-sum="mode">-</div>
+              </div>
+              <div class="summary-row">
+                <div class="k">Jadwal</div>
+                <div class="v" data-sum="jadwalPreferensi">-</div>
+              </div>
+              <div class="summary-row">
+                <div class="k">Wali</div>
+                <div class="v" data-sum="namaWali">-</div>
+              </div>
+              <div class="summary-row">
+                <div class="k">WhatsApp</div>
+                <div class="v" data-sum="wa">-</div>
+              </div>
+            </div>
+
+            <div class="side-tip">
+              <div class="tip-icon" aria-hidden="true">⭐</div>
+              <p><strong>Tip:</strong> Kalau masih bingung, isi saja jadwal “bebas” — nanti kami atur bareng.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section-soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>FAQ</h2>
+          <p>Pertanyaan yang sering ditanya orang tua/wali.</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Berapa lama 1 sesi les?</summary>
+            <p>Umumnya 60–90 menit, bisa disesuaikan dengan usia dan fokus anak.</p>
+          </details>
+          <details>
+            <summary>Bisa pilih 2 pelajaran sekaligus?</summary>
+            <p>Bisa. Kamu boleh centang lebih dari 1 pelajaran di formulir.</p>
+          </details>
+          <details>
+            <summary>Apakah ada tes awal?</summary>
+            <p>Ada evaluasi ringan di pertemuan awal untuk lihat level dan kebutuhan belajar.</p>
+          </details>
+        </div>
+
+        <footer class="site-footer">
+          <div class="footer-inner">
+            <div>
+              <div class="footer-title">Les Private Ceria</div>
+              <div class="footer-sub">Belajar itu bisa menyenangkan.</div>
+            </div>
+            <div class="footer-mini">
+              <span>© <span id="year"></span> Alief</span>
+              <span class="dot" aria-hidden="true">•</span>
+              <a href="#daftar">Daftar</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
